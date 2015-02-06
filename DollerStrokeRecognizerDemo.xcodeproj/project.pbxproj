@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D68779101A8489620074EA35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687790F1A8489620074EA35 /* AppDelegate.swift */; };
+		D68779121A8489620074EA35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68779111A8489620074EA35 /* ViewController.swift */; };
+		D68779151A8489620074EA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68779131A8489620074EA35 /* Main.storyboard */; };
+		D68779171A8489620074EA35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68779161A8489620074EA35 /* Images.xcassets */; };
+		D687791A1A8489620074EA35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D68779181A8489620074EA35 /* LaunchScreen.xib */; };
+		D68779261A8489630074EA35 /* DollerStrokeRecognizerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68779251A8489630074EA35 /* DollerStrokeRecognizerDemoTests.swift */; };
+		D687793A1A84B4F00074EA35 /* DollerStrokeRecognizerUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68779371A84B4F00074EA35 /* DollerStrokeRecognizerUtilities.swift */; };
+		D687793B1A84B4F00074EA35 /* NDollerMultistrokeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68779381A84B4F00074EA35 /* NDollerMultistrokeRecognizer.swift */; };
+		D687793C1A84B4F00074EA35 /* OneDollerUnistrokeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68779391A84B4F00074EA35 /* OneDollerUnistrokeRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68779201A8489630074EA35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68779021A8489620074EA35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68779091A8489620074EA35;
+			remoteInfo = DollerStrokeRecognizerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D687790A1A8489620074EA35 /* DollerStrokeRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollerStrokeRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D687790E1A8489620074EA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D687790F1A8489620074EA35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D68779111A8489620074EA35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D68779141A8489620074EA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D68779161A8489620074EA35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D68779191A8489620074EA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D687791F1A8489630074EA35 /* DollerStrokeRecognizerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollerStrokeRecognizerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68779241A8489630074EA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68779251A8489630074EA35 /* DollerStrokeRecognizerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollerStrokeRecognizerDemoTests.swift; sourceTree = "<group>"; };
+		D68779361A84A1910074EA35 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
+		D68779371A84B4F00074EA35 /* DollerStrokeRecognizerUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DollerStrokeRecognizerUtilities.swift; path = DollerStrokeRecognizer/DollerStrokeRecognizerUtilities.swift; sourceTree = "<group>"; };
+		D68779381A84B4F00074EA35 /* NDollerMultistrokeRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NDollerMultistrokeRecognizer.swift; path = DollerStrokeRecognizer/NDollerMultistrokeRecognizer.swift; sourceTree = "<group>"; };
+		D68779391A84B4F00074EA35 /* OneDollerUnistrokeRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneDollerUnistrokeRecognizer.swift; path = DollerStrokeRecognizer/OneDollerUnistrokeRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68779071A8489620074EA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D687791C1A8489630074EA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D68779011A8489620074EA35 = {
+			isa = PBXGroup;
+			children = (
+				D687792F1A84896D0074EA35 /* DollerStrokeRecognizer */,
+				D687790C1A8489620074EA35 /* DollerStrokeRecognizerDemo */,
+				D68779221A8489630074EA35 /* DollerStrokeRecognizerDemoTests */,
+				D687790B1A8489620074EA35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D687790B1A8489620074EA35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D687790A1A8489620074EA35 /* DollerStrokeRecognizerDemo.app */,
+				D687791F1A8489630074EA35 /* DollerStrokeRecognizerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D687790C1A8489620074EA35 /* DollerStrokeRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D687790F1A8489620074EA35 /* AppDelegate.swift */,
+				D68779111A8489620074EA35 /* ViewController.swift */,
+				D68779131A8489620074EA35 /* Main.storyboard */,
+				D68779161A8489620074EA35 /* Images.xcassets */,
+				D68779181A8489620074EA35 /* LaunchScreen.xib */,
+				D68779361A84A1910074EA35 /* MyPlayground.playground */,
+				D687790D1A8489620074EA35 /* Supporting Files */,
+			);
+			path = DollerStrokeRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		D687790D1A8489620074EA35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D687790E1A8489620074EA35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D68779221A8489630074EA35 /* DollerStrokeRecognizerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D68779251A8489630074EA35 /* DollerStrokeRecognizerDemoTests.swift */,
+				D68779231A8489630074EA35 /* Supporting Files */,
+			);
+			path = DollerStrokeRecognizerDemoTests;
+			sourceTree = "<group>";
+		};
+		D68779231A8489630074EA35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D68779241A8489630074EA35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D687792F1A84896D0074EA35 /* DollerStrokeRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				D68779371A84B4F00074EA35 /* DollerStrokeRecognizerUtilities.swift */,
+				D68779381A84B4F00074EA35 /* NDollerMultistrokeRecognizer.swift */,
+				D68779391A84B4F00074EA35 /* OneDollerUnistrokeRecognizer.swift */,
+			);
+			name = DollerStrokeRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68779091A8489620074EA35 /* DollerStrokeRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68779291A8489630074EA35 /* Build configuration list for PBXNativeTarget "DollerStrokeRecognizerDemo" */;
+			buildPhases = (
+				D68779061A8489620074EA35 /* Sources */,
+				D68779071A8489620074EA35 /* Frameworks */,
+				D68779081A8489620074EA35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DollerStrokeRecognizerDemo;
+			productName = DollerStrokeRecognizerDemo;
+			productReference = D687790A1A8489620074EA35 /* DollerStrokeRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D687791E1A8489630074EA35 /* DollerStrokeRecognizerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D687792C1A8489630074EA35 /* Build configuration list for PBXNativeTarget "DollerStrokeRecognizerDemoTests" */;
+			buildPhases = (
+				D687791B1A8489630074EA35 /* Sources */,
+				D687791C1A8489630074EA35 /* Frameworks */,
+				D687791D1A8489630074EA35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68779211A8489630074EA35 /* PBXTargetDependency */,
+			);
+			name = DollerStrokeRecognizerDemoTests;
+			productName = DollerStrokeRecognizerDemoTests;
+			productReference = D687791F1A8489630074EA35 /* DollerStrokeRecognizerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68779021A8489620074EA35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yoshiki Kurihara";
+				TargetAttributes = {
+					D68779091A8489620074EA35 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D687791E1A8489630074EA35 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D68779091A8489620074EA35;
+					};
+				};
+			};
+			buildConfigurationList = D68779051A8489620074EA35 /* Build configuration list for PBXProject "DollerStrokeRecognizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68779011A8489620074EA35;
+			productRefGroup = D687790B1A8489620074EA35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68779091A8489620074EA35 /* DollerStrokeRecognizerDemo */,
+				D687791E1A8489630074EA35 /* DollerStrokeRecognizerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68779081A8489620074EA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68779151A8489620074EA35 /* Main.storyboard in Resources */,
+				D687791A1A8489620074EA35 /* LaunchScreen.xib in Resources */,
+				D68779171A8489620074EA35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D687791D1A8489630074EA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68779061A8489620074EA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D687793B1A84B4F00074EA35 /* NDollerMultistrokeRecognizer.swift in Sources */,
+				D687793A1A84B4F00074EA35 /* DollerStrokeRecognizerUtilities.swift in Sources */,
+				D687793C1A84B4F00074EA35 /* OneDollerUnistrokeRecognizer.swift in Sources */,
+				D68779121A8489620074EA35 /* ViewController.swift in Sources */,
+				D68779101A8489620074EA35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D687791B1A8489630074EA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68779261A8489630074EA35 /* DollerStrokeRecognizerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68779211A8489630074EA35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68779091A8489620074EA35 /* DollerStrokeRecognizerDemo */;
+			targetProxy = D68779201A8489630074EA35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D68779131A8489620074EA35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68779141A8489620074EA35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D68779181A8489620074EA35 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68779191A8489620074EA35 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68779271A8489630074EA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D68779281A8489630074EA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D687792A1A8489630074EA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DollerStrokeRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D687792B1A8489630074EA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DollerStrokeRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D687792D1A8489630074EA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DollerStrokeRecognizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollerStrokeRecognizerDemo.app/DollerStrokeRecognizerDemo";
+			};
+			name = Debug;
+		};
+		D687792E1A8489630074EA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DollerStrokeRecognizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollerStrokeRecognizerDemo.app/DollerStrokeRecognizerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68779051A8489620074EA35 /* Build configuration list for PBXProject "DollerStrokeRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68779271A8489630074EA35 /* Debug */,
+				D68779281A8489630074EA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68779291A8489630074EA35 /* Build configuration list for PBXNativeTarget "DollerStrokeRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D687792A1A8489630074EA35 /* Debug */,
+				D687792B1A8489630074EA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D687792C1A8489630074EA35 /* Build configuration list for PBXNativeTarget "DollerStrokeRecognizerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D687792D1A8489630074EA35 /* Debug */,
+				D687792E1A8489630074EA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D68779021A8489620074EA35 /* Project object */;
+}
