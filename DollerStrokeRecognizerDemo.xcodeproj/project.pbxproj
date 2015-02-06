@@ -39,7 +39,6 @@
 		D687791F1A8489630074EA35 /* DollerStrokeRecognizerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollerStrokeRecognizerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68779241A8489630074EA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D68779251A8489630074EA35 /* DollerStrokeRecognizerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollerStrokeRecognizerDemoTests.swift; sourceTree = "<group>"; };
-		D68779361A84A1910074EA35 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
 		D68779371A84B4F00074EA35 /* DollerStrokeRecognizerUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DollerStrokeRecognizerUtilities.swift; path = DollerStrokeRecognizer/DollerStrokeRecognizerUtilities.swift; sourceTree = "<group>"; };
 		D68779381A84B4F00074EA35 /* NDollerMultistrokeRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NDollerMultistrokeRecognizer.swift; path = DollerStrokeRecognizer/NDollerMultistrokeRecognizer.swift; sourceTree = "<group>"; };
 		D68779391A84B4F00074EA35 /* OneDollerUnistrokeRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneDollerUnistrokeRecognizer.swift; path = DollerStrokeRecognizer/OneDollerUnistrokeRecognizer.swift; sourceTree = "<group>"; };
@@ -90,7 +89,6 @@
 				D68779131A8489620074EA35 /* Main.storyboard */,
 				D68779161A8489620074EA35 /* Images.xcassets */,
 				D68779181A8489620074EA35 /* LaunchScreen.xib */,
-				D68779361A84A1910074EA35 /* MyPlayground.playground */,
 				D687790D1A8489620074EA35 /* Supporting Files */,
 			);
 			path = DollerStrokeRecognizerDemo;
